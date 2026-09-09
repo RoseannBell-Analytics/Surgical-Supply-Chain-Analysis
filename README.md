@@ -42,9 +42,9 @@
 
 ```sql
 SELECT AVG(lead_time) AS avg_lead_time, supplier
-           FROM `supply-chain-project-507003.inventory_transactions.inventory_transactions` AS i
-           JOIN `supply-chain-project-507003.Product_master_list.Product_master_list` AS p
-               ON i.SKU = p.SKU
+FROM `supply-chain-project-507003.inventory_transactions.inventory_transactions` AS i
+JOIN `supply-chain-project-507003.Product_master_list.Product_master_list` AS p
+	 ON i.SKU = p.SKU
 WHERE category LIKE "%Surgical%"
 GROUP BY Supplier
 ```
