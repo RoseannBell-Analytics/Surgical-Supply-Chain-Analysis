@@ -78,7 +78,7 @@ ORDER BY High_Risk_Count DESC;
  ```
 ---
 ## Key Insights and Recommendations
-**Surgical Lead Time**: Identified an average lead time of 37.29 Days, heavily reliant on a single supplier (MedEye Tech) for surgical supplies.
+**Surgical Lead Time**: Identified an average lead time of 37.29 Days, heavily reliant on a single supplier (MedEye Tech) for surgical supplies. Relying on a sole vendor for all surgical SKUs has created operational dependency that poses a high risk for the supply chain in the event the vendor encounters any operational issues on their end. It is recommended that leadership consider contracting with a secondary vendor for surgical supplies needed. Leadership may also want to order buffer stock of the supplies with the most frequent usage to help prevent stockouts of those specific supplies.
 
 **Regional Volume**: The East region recorded the lowest volume of surgical SKU orders of all regions (86 distinct orders). Although the East and North regions both tied for the lowest distinct orders, the East region had the lowest total units sold of the two regions (1,166). A large portion of surgical inventory in this warehouse could be expiring because too few orders are coming from this warehouse. There could be potential cost-saving opportunities here. The surgical orders from this warehouse could potentially be consolidated with one of the other warehouses already in use. Thus, eliminating the freight fees associated with this warehouse.
 
